@@ -147,7 +147,40 @@
     font-weight: 500;
 
 }
+/* about-us styles */
+.about-us{
+    padding:96px 160px;
+    display:flex;
+    gap:64px;
 
+}
+.about-us .intro{
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+    /* width:368px; */
+     flex:1;
+}
+.about-us .intro h4{
+    font-size:32px;
+    font-weight:bold;
+}
+.about-us .intro .span{
+    font-size:18px;
+    color:#505258;
+}
+.about-us .intro .button{
+    display:flex;
+    align-items: center;
+    color:#1d6fa3;
+    gap:5px;
+}
+.about-us .gallery{
+    height:200px;
+    /* width:100%; */
+    background-color: #ffe500;
+    flex:2;
+}
 
 
 
