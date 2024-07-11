@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    font-family:"Inter", sans-serif;
+}
+
+.hero {
+    height:728px;
+    background-image:url('/assets/hero.jpeg');
+    background-size:cover;
+    background-color:#184864;
+    background-blend-mode: multiply;
+    display:flex;
+    flex-direction:column;
+
+}
+.navbar{
+    padding:12px 80px;
+    display:flex;
+    justify-content:space-between;
+
+
+}
+.links{
+    display:flex;
+    gap:40px;
+    align-items: center;
+
+}
+.logo{
+    display:flex;
+    color:white;
+    font-size:30px;
+    font-weight:600;
+    gap: 10px;
+    align-items: center;
+}
+.navbar a{
+    color:white;
+    text-decoration:none;
+}
+
+
+.para{
+    padding:50px 140px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    gap:25px;
+    align-items: center;
+    justify-content: center;
+}
+.para h1{
+    font-size:65px;
+    font-weight: 600;
+    text-align:center;
+    color: white;
+}
+.para p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.para .button{
+    padding:16px 28px;
+    border-radius:8px;
+    border:1px #ffe500 solid;
+    width: 180px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    gap:5px;
+    justify-content: center;
+}
+.para .button img{
+    width:24px;
+    height:24px;
+}
+
+
+/* campaign styles */
+.campaign{
+    padding:96px 160px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    background-color: #f9f9ff;
+}
+.campaign .title{
+    font-size:32px;
+    font-weight: 500;
+    
+    
+}
+.campaign .sub-title{
+    font-size: 18px;
+    color:#667085;
+    text-align: center;
+    width:70%;
+}
+
+.cards-container {
+    display: flex;
+    gap: 27px;
+}
+
+.card{
+    width:352px;
+    border-radius:20px;
+}
+.card img{
+    width:352px;
+    height:352px;
+    border-radius: 20px 20px 0 0;
+
+}
+.card .card-text{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding:20px 32px;
+    background-color: white;
+
+}
+.card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card .card-subtitle{
+    font-size:14px;
+    color:#505258;
+}
+.card-action{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+.card-action img{
+    width:24px;
+    height:24px;
+}
+.action-text{
+    color:#1d6fa3;
+    font-weight: 500;
+
+}
+
+
+
+
+
